@@ -1,0 +1,175 @@
+/* Styling for the form container */
+.aa {
+  margin-left: 3.5%;
+  width: 1200px;
+  height: 620px;
+  background-color: white;
+  padding: 30px;
+  margin-top: -2.2%;
+  display: 'flex';
+  
+ 
+  
+ 
+
+
+}
+
+/* Styling for the stepper */
+.MuiStepIcon-active, .MuiStepIcon-completed {
+  color: #32cc87 !important;
+}
+ /* Styling for the section heading */
+ h2 {
+  background:#ffffff;;
+  color:#2bcfa2;
+  padding:1em 0;
+  text-align:center;
+  overflow:hidden;
+  font-size:26px;
+  font-family:georgia;
+}
+h2:before, h2:after {
+  content:'';
+  width:3em;
+  border-bottom:#2bcfa2 solid;
+  display:inline-block;
+  vertical-align:middle;
+}
+h2:before {
+  margin-left:-100%;
+margin-right:3em}
+h2:after {
+  margin-right:-100%;
+margin-left:3em;}
+
+
+
+
+
+/* Styling for the input fields */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0%;
+  align-items: left;
+justify-content: left;
+margin-left: 1%;
+
+
+}
+  
+.a1{
+  background-color: #f7f7f7;
+  margin-left: -7%;
+  width: 1352px;
+  height: 80%;
+}
+
+.container > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.container > div:last-child {
+  margin-right: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="checkbox"],
+input[type="date"],
+input[type="tel"],
+input[type="string"]
+
+ {
+  width: 100%;
+  border-radius: 0cm;
+  display: block;
+border-radius: 3px;
+box-sizing: border-box;
+background-color:  #eeecec;
+box-shadow: 0 1px 0 0 rgba(252, 251, 251, 0.1);
+border: none;
+resize: none;
+
+font: inherit;
+font-size: 14px;
+font-weight: normal;
+color:  #000000;
+
+width: 400px;
+padding: 15px;
+}
+
+/* Styling for the previous and next buttons */
+button {
+  background-color: #4cbeb9;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #6bc8d4;
+  border-color: #089fc5;
+  cursor: not-allowed;
+}
+
+.input-field {
+  width: 150px;
+  margin-right: 150px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+button:disabled {
+  background-color: #bbcfd1;
+  border-color: #089fc5;
+  cursor: not-allowed;
+}
+
+.MuiPaper-root{
+  margin-top: 0%;
+  background-color: rgb(255, 255, 255);
+}
+.a2{    
+  
+margin-top: 0%;
+height: 505px;
+border:  7px solid rgb(255, 255, 255);
+border-block-color: rgb(240, 235, 235);
+width:  1250px; 
+margin-left: -2.5%;
+opacity: 0.8;
+
+
+}
+.next{ 
+ 
+  
+  background-color: #e5f8f0;
+  border-color: #3ca163;
+  color: #41a568;
+  margin-right: 30%;
+  
+}
+.prec{
+  background-color:#e5f8f0;
+  border-color: #3ca163;
+  margin-left: 30%;
+  color: #41a568;
+  
+}
+.butoons{
+text-align: center;
+}
+.button-container{
+margin-top: 0%;
+}
